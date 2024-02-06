@@ -1,0 +1,336 @@
+.body{
+    margin: 0;
+}
+
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header2{
+    border-top-style: solid;
+    border-top-color: gray;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.header1data{
+    color: rgb(0 33 105);
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header2data{
+    font-weight: bold;
+    color: rgb(0 33 105);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header2data ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.header2data ul li{
+    padding-right: 20px;
+}
+
+
+
+.slika1 img{
+    width: 80%;
+    height: auto;
+}
+
+
+/*main*/
+
+
+.mogucnosti-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.mogucnosti-levo{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border-right-style: solid;
+    border-right-color: purple;
+    border-right-width: 1px;
+}
+
+.stavka{
+    padding-right: 5%;
+    padding-bottom: 5%;
+}  
+
+.stavka h2{
+    margin-top: 0;
+}
+
+.stavka p{
+    margin-bottom: 0;
+}
+
+.mogucnosti-desno{
+    padding-left: 5%;
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    justify-items: center;
+}
+
+.mogucnosti-desno img{
+    max-width: 100%; 
+    height: auto;
+    display: block;
+}
+
+
+
+.blue-first{
+    margin-top: 5%;
+    background-color: rgb(31, 31, 156);
+}
+
+.blue-first-wrapper{
+    display: flex;
+    padding-top: 20px;
+}
+
+.blue-first-left{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-items: center;
+    align-items: center;
+    border-right-style: solid;
+    border-right-color: purple;
+    border-right-width: 1px;
+}
+
+
+.blue-first-left-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blue-first-left p{
+    margin-top: 0;
+}
+
+.blue-first-left p{
+    color: white;
+}
+.blue-first-left h1{
+    color: white;
+}
+
+.blue-first-right{
+    justify-content: start;
+    padding-left: 5%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.blue-first-right img{
+    width: 50%;
+    height: auto;
+    display: block;
+}
+
+.blue-first-right p{
+    color: white;
+}
+
+
+.x{
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+.x p{
+    color: gray;
+}
+
+.y{
+    border-top-style: solid;
+    border-top-color: purple;
+    border-top-width: 1px;
+    margin-bottom: 80px;
+    
+}
+
+.sivo-omotac{
+    display: flex;
+}
+
+.sivo-levo{
+    width: 70%;
+    background-color: gray;
+    margin-right: 1%;
+    min-height: 200px;
+}
+
+.cenovnik p{
+    color: rgb(0, 3, 105);
+}
+
+
+.sivo-desno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1%;    
+    width: 30%;
+    background-color: gray;
+}
+
+.sivo-levo-inner1{
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    max-width: 66.66%;
+    background-color: white;
+}
+
+.sivo-levo-inner2{
+    border-style: solid;
+    border-color: purple;
+    border-width: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+.cenovnik{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+.dugme{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.footer{
+    background-color: rgb(0, 3, 105);
+    height: 400px;
+}
+
+.footer-up{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-up-innerdiv{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.uls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-1{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+}
+
+.ul-1 li{
+    padding-right: 10px;
+}
+
+.ul-2{
+    list-style-type: none;
+    display: flex;
+    padding-right: 0px;
+}
+
+.ul-2 li{
+    padding-left: 10px;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright p{
+    color: white;
+    font-size: 24px;
+}
+
+.tekst-prvi{
+    color: gray;
+}
+
+.tekst-drugi{
+    color: rgb(0 33 105);
+}
+
+.tekst-treci{
+    color: rgb(0 33 105);
+}
+
+.naslov-stavke{
+    color: rgb(0 33 105);
+}
+
+.tekst-stavke{
+    color: gray;
+    font-size: 20px;
+}
+
+.oko-slike{
+    color: rgb(0 33 105);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.sivo-levo h1{
+    color:rgb(31, 31, 156);
+    padding-left: 40px;
+}
+
+.inner-sivo-desno p{
+    color: rgb(31, 31, 156);
+    font-size: 20px;
+}

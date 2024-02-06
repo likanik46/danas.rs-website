@@ -1,0 +1,354 @@
+.body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.container{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.header{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0 33 105);
+}
+
+.navList{
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navList li{
+    padding-right: 10px;
+}
+
+
+.danas{
+    font-size: 100px;
+    margin: auto;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: gray;
+    border-bottom-color: gray;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+
+.izborStranice{
+    color: rgb(0 33 105);
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+}
+
+.listaStranica{
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.listaStranica li{
+    padding-right: 10px;
+}
+
+
+
+.separator{
+    height: 120px;
+    margin: auto;
+}
+
+
+
+
+.pageName{
+    border-top-style: solid;
+    border-top-color: gray;
+    border-top-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+}
+
+
+
+
+
+/*main*/
+
+.tag-sa-crtom{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(0 33 105);
+    margin-top: 0rem;
+    margin-bottom: 2.5rem;
+    padding-right: 10px;
+    border-right-style: solid;
+    border-right-color: purple;
+    display: inline-block;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.mainLevo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    width: 66.67%;
+}
+
+.mainLevoLevo{
+    width: 66.67%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.slikaTekst{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.slika-div img{
+    border-radius: 50%;
+}
+
+.slika-div-2 img{
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+
+
+.tekst{
+    border-right-style: solid;
+    border-color: purple;
+    border-right-width: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.vreme{
+    margin-top: 0;
+    color: rgb(0 33 105);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tekst1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.tekst2{
+    color: gray;
+    font-size: 20px;
+}
+
+
+/*main levo desno*/
+
+.mainLevoDesno{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.ulKolumnisti{
+    font-size: 20px;
+    color: rgb(0 33 105);
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ulKolumnisti li{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    border-top-style: solid;
+    border-top-color: gray;
+    text-align: left;
+    border-top-width: 1px;
+}
+
+
+.rightSide{
+    width: 33.33%;
+}
+
+.content-desno{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.najnovije{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+
+.najnovije-content{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.najnovije-tekst{
+    width: 75%;
+    padding-right: 20px;
+}
+
+.najnovije-tekst h3{
+    margin-top: 0;
+}
+
+.najnovije-slika{
+    width: 25%;
+    align-items: end;
+}
+
+.najnovije-slika img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.kolumna{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.kolumne{
+    display: flex;
+    flex-direction: column;
+}
+
+.kolumna-tekst{
+    padding-right: 20px;
+    margin-top: 0;
+    padding-left: 20px;
+}
+
+
+.kolumna-slika{
+    width: 25%;
+}
+
+.kolumna-slika img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+/*main kraj*/
+
+
+/*footer*/
+
+.footer{
+    margin-top: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: darkblue;
+}
+
+.innerfoot{
+    display: flex;
+    justify-content: center;
+}
+
+.f1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    width: 25%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+.f1 p{
+    text-align: center;
+    color: white;
+}
+
+.f1 h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+.f1 img{
+    height: auto;
+    max-width: 50%;
+    display: block;
+}
+
+.f2{
+    width: 50%;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-color: white;
+    border-right-color: white;
+}
+
+.f2 h1{
+    color: white;
+    margin-top: 0;
+}
+
+.f2 p{
+    color: white;
+    font-size: 21px;
+}
+
+
+
+
+.pageEnd ul{
+    list-style-type: none;
+}
+
+.pageEnd ul li{
+    color: rgb(0 33 105);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.pageEnd{
+    width: 25%;
+}

@@ -1,0 +1,266 @@
+.body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.container{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.header{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(0 33 105);
+}
+
+.navList{
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navList li{
+    padding-right: 10px;
+}
+
+
+.danas{
+    font-size: 100px;
+    margin: auto;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: gray;
+    border-bottom-color: gray;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+}
+
+
+.izborStranice{
+    color: rgb(0 33 105);
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+}
+
+.listaStranica{
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.listaStranica li{
+    padding-right: 10px;
+}
+
+
+
+.natpis-pocetna{
+    margin: auto;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: gray;
+    border-bottom-color: gray;
+    border-width: 1px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.page-wrapper{
+    margin: auto;
+    display: flex;  
+    padding-top: 20px;
+}
+
+.content-levo{
+    padding-left: 40px;
+    padding-right: 170px;
+    width: 66.66%;
+}
+
+
+
+.content-levo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.tekst-dole{
+    padding-left: 10%;
+}
+.siva-prijava{
+    background-color: rgb(224, 218, 218);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.siva-prijava h3{
+    align-self: center;
+}
+
+.email-i-prijava{
+    display: flex;
+    justify-content: space-between;
+}
+
+.email{
+    width: 75%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.prijavi-se{
+    width: 25%;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+.rightSide{
+    width: 33.33%;
+}
+
+.content-desno{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.najnovije{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+
+.najnovije-content{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.najnovije-tekst{
+    width: 75%;
+    padding-right: 20px;
+}
+
+.najnovije-tekst h3{
+    margin-top: 0;
+}
+
+.najnovije-slika{
+    width: 25%;
+    align-items: end;
+}
+
+.najnovije-slika img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.kolumna{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.kolumne{
+    display: flex;
+    flex-direction: column;
+}
+
+.kolumna-tekst{
+    width: 75%;
+    padding-right: 20px;
+    margin-top: 0;
+}
+
+.kolumna-slika{
+    width: 25%;
+}
+
+.kolumna-slika img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+.pageEnd ul{
+    list-style-type: none;
+    color: rgb(0 33 105);
+}
+
+.pageEnd ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.page-end-wrapper{
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(224, 218, 218);
+}
+
+.pageEnd{
+    width: 25%;
+}
+
+
+
+.vreme{
+    margin-top: 0;
+    color: rgb(0 33 105);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tekst1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.tekst2{
+    color: gray;
+    font-size: 20px;
+}
+
+
+.tag-sa-crtom{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(0 33 105);
+    margin-top: 0rem;
+    margin-bottom: 2.5rem;
+    padding-right: 10px;
+    border-right-style: solid;
+    border-right-color: purple;
+    display: inline-block;
+}
+
+
+
+.tekst-dole p{
+    font-size: 20px;
+}
